@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo of gatsby-theme-portfolio",
+  "main": "gatsby-config.js",
+  "author": "Smakosh",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.2",
+    "gatsby-theme-portfolio": "^1.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
