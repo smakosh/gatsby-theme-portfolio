@@ -1,8 +1,8 @@
 import React from "react";
 import { defaultTitle } from "data";
 import Container from "components/common/Container";
-import { Wrapper, Flex, Links, Details } from "./styles";
-import social from "./social.json";
+import Social from "./Social";
+import { Wrapper, Flex, Details } from "./styles";
 
 export default () => (
   <Wrapper>
@@ -24,19 +24,7 @@ export default () => (
           </a>
         </span>
       </Details>
-      <Links>
-        {social.map(({ id, name, link, icon }) => (
-          <a
-            key={id}
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`follow me on ${icon}`}
-          >
-            <img width="24" src={icon} alt={name} />
-          </a>
-        ))}
-      </Links>
+      <Social />
     </Flex>
   </Wrapper>
 );
