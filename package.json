@@ -1,7 +1,15 @@
 {
   "private": true,
+  "scripts": {
+    "lerna": "lerna",
+    "start": "lerna run start --stream"
+  },
   "workspaces": [
     "demo",
     "theme"
-  ]
+  ],
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  },
+  "name": "test-theme"
 }
