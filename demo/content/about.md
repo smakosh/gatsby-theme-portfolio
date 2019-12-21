@@ -1,6 +1,6 @@
 ---
 section: about
 title: Hi There!
-description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
-action: Hire me
+description: I'm Ismail Ghallou aka Smakosh, the maker of this Gatsby theme, hope you like it, don't forget to star it!
+action: Star me
 ---
